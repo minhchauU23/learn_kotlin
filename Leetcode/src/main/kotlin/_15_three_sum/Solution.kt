@@ -1,5 +1,6 @@
 package _15_three_sum
 
+import _22_generate_parentheses.AS
 import java.util.HashMap
 import java.util.SortedMap
 import kotlin.time.Duration.Companion.seconds
@@ -45,6 +46,6 @@ class Solution {
 
 fun main() {
     println(Solution().threeSum(intArrayOf(0, 0, 0, 0)))
-
+    val s = AS()
 
 }
